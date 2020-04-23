@@ -43,53 +43,6 @@
         <option name="CARGO.BUILD_TASK_PROVIDER" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="Rust_Projects" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="Rust_Projects" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Cargo Command.Run RustProjects" />
@@ -112,6 +65,8 @@
       <updated>1587528958150</updated>
       <workItem from="1587528967307" duration="4599000" />
       <workItem from="1587596608753" duration="3478000" />
+      <workItem from="1587600366163" duration="726000" />
+      <workItem from="1587611859970" duration="47000" />
     </task>
     <servers />
   </component>
@@ -119,30 +74,34 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1587600091109">
+    <state x="740" y="295" key="FileChooserDialogImpl" timestamp="1587611902538">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587600091109" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1587600091109">
+    <state x="740" y="295" key="FileChooserDialogImpl/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587611902538" />
+    <state width="1877" height="671" key="GridCell.Tab.0.bottom" timestamp="1587607662853">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587600091109" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1587600091109">
+    <state width="1877" height="671" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587607662853" />
+    <state width="1877" height="671" key="GridCell.Tab.0.center" timestamp="1587607662853">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587600091109" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1587600091109">
+    <state width="1877" height="671" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587607662853" />
+    <state width="1877" height="671" key="GridCell.Tab.0.left" timestamp="1587607662853">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587600091109" />
+    <state width="1877" height="671" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587607662853" />
+    <state width="1877" height="671" key="GridCell.Tab.0.right" timestamp="1587607662853">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1877" height="671" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587607662853" />
     <state x="461" y="182" key="SettingsEditor" timestamp="1587529088556">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="182" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587529088556" />
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587596607759">
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1587611867605">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587596607759" />
+    <state x="656" y="364" key="com.intellij.ide.util.TipDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1587611867605" />
     <state x="623" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1587597527869">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
