@@ -18,50 +18,64 @@ fn main() {
         Err(e) => println!("whoops: {}", e)
 
     }
-    let mut userInput = 0;
+    let mut user_input = 0;
 
     if input.trim() == rock {
 
-         userInput = 0;
+         user_input = 0;
     }
     else if input.trim() == paper  {
 
-         userInput = 1;
+         user_input = 1;
     }
     else if input.trim() == scissor {
 
-         userInput = 2;
+         user_input = 2;
     }
 
     //cpu
     let mut rng = rand::thread_rng();
-    let cpuChoice = rng.gen_range(0, 3);
-    println!("Cpu chose this: {}", cpuChoice);
-    println!("Player Chose: {}", userInput);
+    let cpu_choice = rng.gen_range(0, 3);
+    let mut cpu_string = String::from("");
+    if cpu_choice == 0{
+        cpu_string = String::from("Rock")
+    }
+    else if cpu_choice == 1{
+        cpu_string = String::from("Paper")
+    }
+    else if cpu_choice == 2{
+        cpu_string = String::from("Scissor")
+    }
+    println!("Cpu chose this: {}", cpu_string);
+    println!();
 
-    if userInput == 0 {
-        if cpuChoice == 0 {
+    if user_input == 0 {
+        if cpu_choice == 0 {
             //draw
+            println!("It's a draw, Try Again!");
+            main();
         }
-        else if cpuChoice == 1 {
+        else if cpu_choice == 1 {
             //cpu win
             println!("You Lost!");
             exit(0);
         }
-        else if cpuChoice == 2{
+        else if cpu_choice == 2{
             //player win
             println!("Yay you won!");
             exit(0);
         }
     }
-    if userInput == 1 {
-        if cpuChoice == 0 {
+    if user_input == 1 {
+        if cpu_choice == 0 {
             //player win
             println!("Yay you won!");
             exit(0);
         }
-        else if cpuChoice == 1 {
+        else if cpu_choice == 1 {
             //draw
+            println!("It's a draw, Try Again!");
+            main();
         }
         else{
             //cpu win
@@ -69,19 +83,21 @@ fn main() {
             exit(0);
         }
     }
-    if userInput == 2 {
-        if cpuChoice == 0 {
+    if user_input == 2 {
+        if cpu_choice == 0 {
             //cpu win
             println!("You Lost!");
             exit(0);
         }
-        else if cpuChoice == 1 {
+        else if cpu_choice == 1 {
             //player win
             println!("Yay you won!");
             exit(0);
         }
         else{
             //draw
+            println!("It's a draw, Try Again!");
+            main();
         }
     }
 
